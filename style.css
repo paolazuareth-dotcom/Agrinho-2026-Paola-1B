@@ -16,14 +16,14 @@
     unicode-bidi: isolate;
 }
 
-.cabecalho-menu-item
-nav-links .nav-item {
+.cabecalho-menu-item{
     text-decoration: none;
     color: gray;
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
 }
+
 background-color: var(--dark-neutral);
     color: #fff;
     border: none;
@@ -33,4 +33,3 @@ background-color: var(--dark-neutral);
     font-weight: 600;
     font-size: 0.9rem;
     transition: transform 0.2s;
-}
