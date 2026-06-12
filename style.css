@@ -1,4 +1,4 @@
-.cabecalho{
+.cabecalho {
 
     display: flex;
     justify-content: space-between;
@@ -16,20 +16,23 @@
     unicode-bidi: isolate;
 }
 
-.cabecalho-menu-item{
+.cabecalho-menu-item {
+    display:flex;
     text-decoration: none;
-    color: gray;
+    color: var(--text-color);
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
+
 }
 
-background-color: var(--dark-neutral);
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: transform 0.2s;
+
+
+.problema {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
+}
