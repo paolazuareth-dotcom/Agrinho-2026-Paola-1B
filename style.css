@@ -12,21 +12,19 @@
 }
 
 .cabecalho-menu {
-    display: block;
+    display: flex;
     unicode-bidi: isolate;
 }
 
 .cabecalho-menu-item {
-    display:flex;
+    display:inline;
     text-decoration: none;
     color: var(--text-color);
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
-
+    padding: 20px;
 }
-
-
 
 .problema {
     display: flex;
